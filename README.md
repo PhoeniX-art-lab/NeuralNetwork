@@ -5,7 +5,7 @@
 	– pip install tensorflow
 	– pip install numpy
 	– pip install matplotlib
-Далее необходимо скачать все файлы с данного репозитория и сохранить к себе в проект. Запуск проекта происходит через файл mnist_model.py.
+Далее необходимо скачать все файлы с данного репозитория и сохранить к себе в проект. Необходимо также загрузить датасет для обучения по ссылке: http://yann.lecun.com/exdb/mnist/. А в скачанных файлах NeuralNetwork.py и Create training.py необходимо поменять параметр path на ваш личный путь к исходным изображениям. Теперь все готово к работе. Для того, чтобы начать работу, необходимо запустить файл mnist_model.py.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -15,4 +15,4 @@ Option through the console. You need to open a console in the "venv" folder of t
   - pip install tensorflow
   - pip install numpy
   - pip install matplotlib
-Next, you need to download all the files from this repository and save them to your project. The project is launched through the mnist_model.py file.
+Next, you need to download all the files from this repository and save them to your project. You must also download the dataset for training from the link: http://yann.lecun.com/exdb/mnist/. And in the downloaded files NeuralNetwork.py and Create training.py, you need to change the path parameter to your personal path to the original images. Everything is now ready to go. To get started, you need to run the mnist_model.py file.
