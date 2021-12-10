@@ -5,7 +5,7 @@
 	– pip install tensorflow
 	– pip install numpy
 	– pip install matplotlib
-Далее необходимо скачать все файлы с данного репозитория и сохранить к себе в проект.
+Далее необходимо скачать все файлы с данного репозитория и сохранить к себе в проект. Запуск проекта происходит через файл mnist_model.py.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -15,4 +15,4 @@ Option through the console. You need to open a console in the "venv" folder of t
   - pip install tensorflow
   - pip install numpy
   - pip install matplotlib
-Next, you need to download all the files from this repository and save them to your project.
+Next, you need to download all the files from this repository and save them to your project. The project is launched through the mnist_model.py file.
