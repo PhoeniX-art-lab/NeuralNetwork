@@ -2,9 +2,10 @@
 Для того, чтобы запустить нейросеть на личном ПК, необходимо скачать все требуемые файлы. Во первых, необходимо скачать интерпретатор Python с официального сайта https://www.python.org/. Версия интерпретатора должна быть 3.9 и выше, а также должна использоваться 64-разрядная архитектура. После установки интерпретатора необходимо установить дополнительные пакеты, такие как tensorfow, numpy, matplotlib. Данные пакеты можно поставить 2-умя способами: через среду разработки PyCharm или через консоль.
 Вариант через PyCharm. Необходимо создать проект. Далее нажать file->Settings…->Project: <name_of_project>->Python Interpreter. В открывшемся окне нажать на иконку «+». А далее в открывшемся окне вписать названия пакетов, указанных выше.
 Вариант через консоль. Необходимо открыть консоль в папке «venv» проекта. Затем прописать следующие команды:
-	– pip install tensorflow
-	– pip install numpy
-	– pip install matplotlib
+  - pip install tensorflow
+  - pip install numpy
+  - pip install matplotlib
+ 
 Далее необходимо скачать все файлы с данного репозитория и сохранить к себе в проект. Необходимо также загрузить датасет для обучения по ссылке: http://yann.lecun.com/exdb/mnist/. А в скачанных файлах NeuralNetwork.py и Create training.py необходимо поменять параметр path на ваш личный путь к исходным изображениям. Теперь все готово к работе. Для того, чтобы начать работу, необходимо запустить файл mnist_model.py.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -15,4 +16,5 @@ Option through the console. You need to open a console in the "venv" folder of t
   - pip install tensorflow
   - pip install numpy
   - pip install matplotlib
+ 
 Next, you need to download all the files from this repository and save them to your project. You must also download the dataset for training from the link: http://yann.lecun.com/exdb/mnist/. And in the downloaded files NeuralNetwork.py and Create training.py, you need to change the path parameter to your personal path to the original images. Everything is now ready to go. To get started, you need to run the mnist_model.py file.
