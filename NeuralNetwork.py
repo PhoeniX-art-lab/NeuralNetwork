@@ -5,7 +5,7 @@ from consts import *
 
 
 class NeuralNetwork:
-    def __init__(self):
+    def __init__(self, mnist_number):
         self.path = f'D:/python/Dataset/mnist-{mnist_number}'
         self.train_dataset = image_dataset_from_directory(f'D:/python/Dataset/mnist-{mnist_number}',
                                                           color_mode='grayscale',
