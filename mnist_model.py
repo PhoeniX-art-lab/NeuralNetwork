@@ -5,10 +5,10 @@ import numpy as np
 from NeuralNetwork import *
 from graphics import *
 
-obj = NeuralNetwork()
+obj = NeuralNetwork(mnist_number)
 while mnist_number <= 5:
     if mnist_number != 1:
-        obj.__init__()
+        obj.__init__(mnist_number)
     print(f'\n----Using path: {obj.path}\n')
     obj.model.compile(optimizer='adam',
                       loss='sparse_categorical_crossentropy',
@@ -58,4 +58,4 @@ accuracy.append(round(scores[1] * 100, 4))
 
 graphics(history)
 
-print(f'Точность нейросети обратного распространения: {accuracy[0]}%\n')
+print(f'Точность нейросети обратного распространения: {accuracy[5]}%\n')
